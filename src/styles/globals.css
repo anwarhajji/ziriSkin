@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+*,
+::after,
+::before {
+  cursor: none;
+}
+main {
+  overflow: hidden;
+}
