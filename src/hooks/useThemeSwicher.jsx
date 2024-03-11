@@ -6,7 +6,8 @@ export function useThemeSwitcher() {
 
   useEffect(() => {
     const mediaQuery = window.matchMedia(preferenceDarkQuiery);
-    const userPref = window.localStorage.getItem('theme');
+    const userPref = 'dark'
+    // window.localStorage.getItem('theme');
     if (userPref) {
       setMode(userPref);
     }
